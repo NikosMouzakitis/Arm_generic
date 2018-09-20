@@ -15,7 +15,11 @@
 		
 		// stack pointer needs to be pointing 
 		// in an address that we can write actually.
+<<<<<<< HEAD
 		ldr	sp, =stack_top	
+=======
+		ldr	sp, = stack_top
+>>>>>>> 9230dadd41ff78da25af39af13a97b19cce05620
 
 		stmfd	sp!, {fp, lr}
 		
