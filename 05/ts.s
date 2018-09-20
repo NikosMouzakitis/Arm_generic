@@ -15,7 +15,7 @@
 		
 		// stack pointer needs to be pointing 
 		// in an address that we can write actually.
-		//ldr	sp, = 0x5000	
+		ldr	sp, = stack_top
 
 		stmfd	sp!, {fp, lr}
 		
