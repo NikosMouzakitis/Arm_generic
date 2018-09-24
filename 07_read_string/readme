@@ -1,0 +1,2 @@
+Program reads a string input from 
+UART0DR and prints it in the QEMU console.
